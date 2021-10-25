@@ -1,0 +1,13 @@
+#pluginNotice {
+	display: none;
+}
+
+div[class*="notice"] {
+	display: none !important;
+}
+.updateNotice-2DjjHs {
+	display: none;
+}
+#BDFDB-notice {
+	display: none;
+}
