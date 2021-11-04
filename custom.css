@@ -12,6 +12,7 @@ div[class*="notice"] {
 	display: none;
 } */
 
+/* Remove annoying sticker tab*/
 #sticker-picker-tab {
 	/*visibility: hidden;*/
 	display: none;
