@@ -1,4 +1,4 @@
-#pluginNotice {
+/* #pluginNotice {
 	display: none;
 }
 
@@ -9,5 +9,10 @@ div[class*="notice"] {
 	display: none;
 }
 #BDFDB-notice {
+	display: none;
+} */
+
+#sticker-picker-tab {
+	/*visibility: hidden;*/
 	display: none;
 }
