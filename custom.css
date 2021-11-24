@@ -1,22 +1,13 @@
-/*...*/
-/* #pluginNotice {
-	display: none;
-}
-
-div[class*="notice"] {
-	display: none !important;
-}
-.updateNotice-2DjjHs {
-	display: none;
-}
-#BDFDB-notice {
-	display: none;
-} */
-
-/* Remove annoying sticker tab*/
 #sticker-picker-tab {
-	/*visibility: hidden;*/
-	display: none;
+    /*visibility: hidden;*/
+    display: none;
 }
 
-/*  */
+a[href="/store"]{
+    display: none;
+}
+
+div[aria-label="Discord Nitro"]{
+    display: none;
+}
+
