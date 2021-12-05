@@ -1,0 +1,55 @@
+/*
+ * Author: Decimation
+ */
+
+/*src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;*/
+/*src: local('Roboto Mono'), local('Roboto-Mono'), url(https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW4.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+
+@font-face {
+	font-family: "Arial";
+
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format("truetype");
+	font-style: normal;
+	font-weight: 400;
+}
+
+/* @font-face {
+	font-family: 'Helvetica';
+
+	src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+	font-style: normal;
+	font-weight: 400;
+} */
+/*.mwe-math-element {
+	
+	font-family: 'Arial';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}*/
+/*@font-face {
+	font-family: 'Arial';
+
+	src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+	font-style: normal;
+	font-weight: 400;
+}*/
+
+@font-face {
+	font-family: "SF Mono";
+
+	src: local("Consolas");
+	font-weight: 600;
+	font-style: normal;
+}
+
+/* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
+/* https://fonts.googleapis.com/css?family= */
+/* https://fonts.googleapis.com/css?family=Roboto */
+/* https://fonts.googleapis.com/css?family=Roboto+Mono */
