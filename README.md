@@ -1,4 +1,9 @@
-# Discord-Kojo
+# Kojo-styles
+
+### Kojo-Font
+Improves font styles
+
+### Discord
 
 CSS styles which remove annoying UI elements
 
