@@ -1,16 +1,22 @@
-
 /*https://gist.github.com/Decimation/08b16652f1a6b675f833bdb038b17755*/
 
 #sticker-picker-tab {
-    /*visibility: hidden;*/
-    display: none;
+	/*visibility: hidden;*/
+	display: none;
 }
 
-a[href="/store"]{
-    display: none;
+a[href="/store"] {
+	display: none;
 }
 
-div[aria-label="Discord Nitro"]{
-    display: none;
+a[href^="https://discord.com/snowsgiving"] {
+	/* display: none; */
+
+	visibility: hidden;
+
 }
 
+div[data-list-item-id$="___snowsgiving"],
+div[aria-label="Discord Nitro"] {
+	display: none;
+}
