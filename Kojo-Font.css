@@ -1,7 +1,6 @@
 /*
  * Author: Decimation
  */
-
 /*src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
 font-weight: normal;
 font-style: normal;*/
@@ -9,12 +8,11 @@ font-style: normal;*/
 font-weight: normal;
 font-style: normal;*/
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-
 @font-face {
-	font-family: "Arial";
+	font-family: 'Arial';
 
-	src: local("Roboto"), local("Roboto-Regular"),
-		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format("truetype");
+
+	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
 	font-weight: 400;
 }
@@ -40,11 +38,11 @@ font-style: normal;*/
 	font-style: normal;
 	font-weight: 400;
 }*/
-
 @font-face {
+
 	font-family: "SF Mono";
 
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 	font-style: normal;
 }
@@ -53,3 +51,18 @@ font-style: normal;*/
 /* https://fonts.googleapis.com/css?family= */
 /* https://fonts.googleapis.com/css?family=Roboto */
 /* https://fonts.googleapis.com/css?family=Roboto+Mono */
+
+@-moz-document domain("cppreference.com") {
+html,
+body,
+span[class="t-spar"],
+span[class="kw4"],
+tt,
+code,
+pre,
+.mw-geshi,
+.t-lc,
+#wpTextbox1 {
+	font-family: Consolas !important
+}
+}
