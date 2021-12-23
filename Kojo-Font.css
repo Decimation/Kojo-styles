@@ -51,18 +51,3 @@ font-style: normal;*/
 /* https://fonts.googleapis.com/css?family= */
 /* https://fonts.googleapis.com/css?family=Roboto */
 /* https://fonts.googleapis.com/css?family=Roboto+Mono */
-
-@-moz-document domain("cppreference.com") {
-html,
-body,
-span[class="t-spar"],
-span[class="kw4"],
-tt,
-code,
-pre,
-.mw-geshi,
-.t-lc,
-#wpTextbox1 {
-	font-family: Consolas !important
-}
-}
