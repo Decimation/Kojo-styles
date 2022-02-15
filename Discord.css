@@ -9,13 +9,6 @@ a[href="/store"] {
 	display: none;
 }
 
-a[href^="https://discord.com/snowsgiving"] {
-	/* display: none; */
-
-	visibility: hidden;
-}
-
-div[data-list-item-id$="___snowsgiving"],
 div[aria-label="Discord Nitro"] {
 	display: none;
 }
