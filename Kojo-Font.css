@@ -8,11 +8,12 @@ font-style: normal;*/
 font-weight: normal;
 font-style: normal;*/
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+
 @font-face {
-	font-family: 'Arial';
-
-
-	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
+	font-family: "Arial";
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
+			format("truetype");
 	font-style: normal;
 	font-weight: 400;
 }
@@ -38,16 +39,47 @@ font-style: normal;*/
 	font-style: normal;
 	font-weight: 400;
 }*/
+
 @font-face {
-
 	font-family: "SF Mono";
-
-	src: local('Consolas');
+	src: local("Consolas");
 	font-weight: 600;
 	font-style: normal;
+}
+
+@font-face {
+	font-family: "Courier New";
+	src: local("Consolas");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica";
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
+			format("truetype");
+	font-style: normal;
+	font-weight: 300;
 }
 
 /* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
 /* https://fonts.googleapis.com/css?family= */
 /* https://fonts.googleapis.com/css?family=Roboto */
 /* https://fonts.googleapis.com/css?family=Roboto+Mono */
+
+@-moz-document domain("en.cppreference.com") {
+	html,
+	body,
+	span[class="t-spar"],
+	span[class="t-lines"],
+	span[class="kw4"],
+	tt,
+	code,
+	pre,
+	.mw-geshi,
+	.t-lc,
+	#mw-content-text #wpTextbox1 {
+		font-family: Consolas !important;
+	}
+}
