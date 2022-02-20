@@ -18,30 +18,24 @@ font-style: normal;*/
 	font-weight: 400;
 }
 
-/* @font-face {
-	font-family: 'Helvetica';
-
-	src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+@font-face {
+	font-family: "Helvetica";
+	src: local("Roboto"), local("Roboto-Regular"),
+		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
+			format("truetype");
 	font-style: normal;
-	font-weight: 400;
-} */
-/*.mwe-math-element {
-	
-	font-family: 'Arial';
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-}*/
-/*@font-face {
-	font-family: 'Arial';
-
-	src: local('Roboto'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
-	font-style: normal;
-	font-weight: 400;
-}*/
+	font-weight: 300;
+}
 
 @font-face {
 	font-family: "SF Mono";
+	src: local("Consolas");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: monospace, monospace;
 	src: local("Consolas");
 	font-weight: 600;
 	font-style: normal;
@@ -55,12 +49,11 @@ font-style: normal;*/
 }
 
 @font-face {
-	font-family: "Helvetica";
-	src: local("Roboto"), local("Roboto-Regular"),
-		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
-			format("truetype");
+	font-family: "Courier";
+	src: local("Consolas");
+	font-weight: 600;
+
 	font-style: normal;
-	font-weight: 300;
 }
 
 /* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
