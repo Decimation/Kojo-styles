@@ -35,6 +35,12 @@ font-style: normal;*/
 }
 
 @font-face {
+	font-family: "Andale Mono", "Monotype.com", monospace;
+	src: local("Consolas");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
 	font-family: monospace, monospace;
 	src: local("Consolas");
 	font-weight: 600;
