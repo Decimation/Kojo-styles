@@ -1,5 +1,7 @@
 /*https://gist.github.com/Decimation/08b16652f1a6b675f833bdb038b17755*/
 
+/* Hide Nitro */
+
 #sticker-picker-tab {
 	/*visibility: hidden;*/
 	display: none;
@@ -13,6 +15,14 @@ div[aria-label="Discord Nitro"] {
 	display: none;
 }
 
+
+/* Hide Server Boost */
+
+div[aria-label="Server Boost Status"] {
+	display: none;
+}
+
 #guild-header-popout-premium-subscribe {
 	display: none;
 }
+
