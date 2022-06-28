@@ -1,18 +1,28 @@
-/*https://gist.github.com/Decimation/08b16652f1a6b675f833bdb038b17755*/
 
-/* Hide Nitro */
+/*
+	-		Removes
+	+		Adds
+	*		Tweaks
+	
+	https://gist.github.com/Decimation/08b16652f1a6b675f833bdb038b17755
+*/
+
+
+/* - [Chat] Nitro */
 
 #sticker-picker-tab {
 	/*visibility: hidden;*/
 	display: none;
 }
 
+/* - [Global] Store */
+
 a[href="/store"] {
 	display: none;
 }
 
 
-/* [Settings] Billing Settings
+/* - [Settings] Billing Settings
 	7. Separator 
 	8. Label
 */
@@ -27,7 +37,13 @@ div[aria-label="Discord Nitro"] {
 	display: none;
 }
 
-/* [Server] Hide Server Boost */
+/* - [Settings] HypeSquad */
+
+div[aria-controls="hypesquad-online-tab"]{
+	display: none;
+}
+
+/* - [Server] Server Boost */
 
 div[aria-label="Server Boost Status"],
 #guild-header-popout-premium-subscribe {
