@@ -12,3 +12,7 @@ a[href="/store"] {
 div[aria-label="Discord Nitro"] {
 	display: none;
 }
+
+#guild-header-popout-premium-subscribe {
+	display: none;
+}
