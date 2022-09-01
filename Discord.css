@@ -28,14 +28,8 @@ div[class="cta-1idp93"] {
 	7. Separator 
 	8. Label
 */
-div[aria-label="User Settings"]>div:nth-child(7),
-div[aria-label="User Settings"]>div:nth-child(8),
-div[aria-controls="billing-tab"],
-div[aria-controls="subscriptions-tab"],
-div[aria-controls="library-inventory-tab"],
-div[aria-controls="discord-nitro-tab"],
 div[aria-controls="nitro-server-boost-tab"],
-div[aria-label="Discord Nitro"] {
+div[aria-label="Nitro"] {
 	display: none;
 }
 
