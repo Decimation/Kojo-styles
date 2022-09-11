@@ -8,55 +8,51 @@ font-style: normal;*/
 font-weight: normal;
 font-style: normal;*/
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-
 @font-face {
-	font-family: "Arial";
-	src: local("Roboto"), local("Roboto-Regular"),
-		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
-			format("truetype");
+	font-family: 'Arial';
+	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
 	font-weight: 400;
 }
 
 @font-face {
-	font-family: "Helvetica";
-	src: local("Roboto"), local("Roboto-Regular"),
-		url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf)
-			format("truetype");
+	font-family: 'Helvetica';
+	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
 	font-weight: 300;
 }
 
+
 @font-face {
 	font-family: "SF Mono";
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Andale Mono", "Monotype.com", monospace;
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	font-family: monospace, monospace;
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Courier New";
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "Courier";
-	src: local("Consolas");
+	src: local('Consolas');
 	font-weight: 600;
 
 	font-style: normal;
@@ -68,17 +64,17 @@ font-style: normal;*/
 /* https://fonts.googleapis.com/css?family=Roboto+Mono */
 
 @-moz-document domain("en.cppreference.com") {
-	html,
-	body,
-	span[class="t-spar"],
-	span[class="t-lines"],
-	span[class="kw4"],
-	tt,
-	code,
-	pre,
-	.mw-geshi,
-	.t-lc,
-	#mw-content-text #wpTextbox1 {
-		font-family: Consolas !important;
-	}
+html,
+body,
+span[class="t-spar"],
+span[class="t-lines"],
+span[class="kw4"],
+tt,
+code,
+pre,
+.mw-geshi,
+.t-lc,
+#mw-content-text #wpTextbox1 {
+	font-family: Consolas !important
+}
 }
