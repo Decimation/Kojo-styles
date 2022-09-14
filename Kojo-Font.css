@@ -38,6 +38,13 @@ font-style: normal;*/
 }
 
 @font-face {
+	font-family: Menlo;
+	src: local('Consolas');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "Andale Mono", "Monotype.com", monospace;
 	src: local('Consolas');
 	font-weight: 600;
@@ -66,12 +73,14 @@ font-style: normal;*/
 	font-style: normal;
 }
 
+@-moz-document domain("en.cppreference.com") {
 /* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
 /* https://fonts.googleapis.com/css?family= */
 /* https://fonts.googleapis.com/css?family=Roboto */
 /* https://fonts.googleapis.com/css?family=Roboto+Mono */
 
-@-moz-document domain("en.cppreference.com") {
+
+
 
 	html,
 	body,
