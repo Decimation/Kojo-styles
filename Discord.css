@@ -50,6 +50,7 @@ div[class*="profileCustomizationSection"] > :nth-child(1) > :nth-child(1) > :nth
 	display: none;
 }
 
+div[class*="upsellOverlayContainer"], 
 div[class*="upsellBanner"], 
 div[class*="premiumTab"] {
 	display: none;
