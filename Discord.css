@@ -46,7 +46,8 @@ div[aria-label="Server Boost Status"],
 
 /* - [Settings] Profile */
 
-div[class*="profileCustomizationSection"] > :nth-child(1) > :nth-child(1) > :nth-child(3) {
+div[class*="profileCustomizationSection"] > :nth-child(1) > :nth-child(1) > :nth-child(3),
+div[class*="premiumFeatureBorder"] {
 	display: none;
 }
 
