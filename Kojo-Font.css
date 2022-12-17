@@ -9,12 +9,12 @@ font-weight: normal;
 font-style: normal;*/
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 
-@font-face {
+/* @font-face {
 	font-family: 'Arial';
 	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
 	font-weight: 400;
-}
+} */
 
 @font-face {
 	font-family: 'Helvetica';
