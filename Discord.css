@@ -58,6 +58,7 @@ div[class*="premiumTab"] {
 	display: none;
 }
 
+#message-add-reaction-1,
 #message-actions-add-reaction-1 {
 	display: none;
 }
