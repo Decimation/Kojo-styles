@@ -58,3 +58,6 @@ div[class*="premiumTab"] {
 	display: none;
 }
 
+#message-actions-add-reaction-1 {
+	display: none;
+}

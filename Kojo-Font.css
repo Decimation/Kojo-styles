@@ -16,6 +16,7 @@ font-style: normal;*/
 	font-weight: 400;
 } */
 
+@require url("https://gist.githubusercontent.com/Vivelin/76b56deeb000c01811243009e134b181/raw/ArialRoboto.user.css");
 @font-face {
 	font-family: 'Helvetica';
 	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
