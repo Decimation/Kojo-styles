@@ -62,3 +62,7 @@ div[class*="premiumTab"] {
 #message-actions-add-reaction-1 {
 	display: none;
 }
+
+div[aria-label="Add Super Reaction"] {
+	display: none;
+}
