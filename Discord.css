@@ -54,7 +54,8 @@ div[class*="premiumFeatureBorder"] {
 div[class*="upsellOverlayContainer"], 
 div[class*="wrapper-400BN2"], 
 div[class*="upsellBanner"], 
-div[class*="premiumTab"] {
+div[class*="premiumTab"],
+div[class*="colorPremium"] {
 	display: none;
 }
 

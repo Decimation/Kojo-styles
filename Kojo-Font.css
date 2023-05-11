@@ -16,13 +16,15 @@ font-style: normal;*/
 	font-weight: 400;
 } */
 
-@require url("https://gist.githubusercontent.com/Vivelin/76b56deeb000c01811243009e134b181/raw/ArialRoboto.user.css");
-@font-face {
+@require url('https://gist.githubusercontent.com/Vivelin/76b56deeb000c01811243009e134b181/raw/ArialRoboto.user.css');
+
+	
+/*@font-face {
 	font-family: 'Helvetica';
 	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
-	font-weight: 300;
-}
+	
+}*/
 
 @font-face {
 	font-family: 'Manrope';
@@ -72,6 +74,21 @@ font-style: normal;*/
 	font-weight: 600;
 
 	font-style: normal;
+}
+
+
+@-moz-document url-prefix("https://chat.openai.com/") {
+@font-face {
+	font-family: Söhne Mono,Monaco,Andale Mono,Ubuntu Mono,monospace;
+	src: local('Consolas') !important;
+	font-weight: 600;
+
+	font-style: normal;
+}
+
+code {
+	font-family: Consolas !important
+}
 }
 
 @-moz-document domain("en.cppreference.com") {
