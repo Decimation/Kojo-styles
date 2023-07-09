@@ -7,6 +7,20 @@
 */
 
 
+
+html body {
+	font-family: 'Segoe UI' !important;
+	font-weight: inherit;
+	src: local('Segoe UI');
+}
+
+code {
+	font-family: 'Consolas NF' !important;
+	src: local('Consolas NF');
+	font-weight: inherit;
+	font-style: normal;
+}
+
 /* - [Chat] Nitro */
 
 #sticker-picker-tab {
@@ -46,14 +60,14 @@ div[aria-label="Server Boost Status"],
 
 /* - [Settings] Profile */
 
-div[class*="profileCustomizationSection"] > :nth-child(1) > :nth-child(1) > :nth-child(3),
+div[class*="profileCustomizationSection"]> :nth-child(1)> :nth-child(1)> :nth-child(3),
 div[class*="premiumFeatureBorder"] {
 	display: none;
 }
 
-div[class*="upsellOverlayContainer"], 
-div[class*="wrapper-400BN2"], 
-div[class*="upsellBanner"], 
+div[class*="upsellOverlayContainer"],
+div[class*="wrapper-400BN2"],
+div[class*="upsellBanner"],
 div[class*="premiumTab"],
 div[class*="colorPremium"] {
 	display: none;
