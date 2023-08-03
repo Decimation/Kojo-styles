@@ -73,8 +73,14 @@ div[class*="colorPremium"] {
 	display: none;
 }
 
+/* - [Chat] */
+
 #message-add-reaction-1,
 #message-actions-add-reaction-1 {
+	display: none;
+}
+
+button[aria-label*="Send a gif"] {
 	display: none;
 }
 
