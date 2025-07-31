@@ -18,14 +18,13 @@ font-style: normal;*/
 
 @require url('https://gist.githubusercontent.com/Vivelin/76b56deeb000c01811243009e134b181/raw/ArialRoboto.user.css');
 
-	
+
 /*@font-face {
 	font-family: 'Helvetica';
 	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
 	font-style: normal;
 	
 }*/
-
 @font-face {
 	font-family: 'Manrope';
 	src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu7GxP.ttf) format('truetype');
@@ -76,26 +75,32 @@ font-style: normal;*/
 	font-style: normal;
 }
 
+@-moz-document url-prefix("https://www.ebay.com") {
+	@font-face {
+		font-family: "Market Sans";
+		src: local('Arial');
+	}
+}
 
 @-moz-document url-prefix("https://chat.openai.com/") {
-@font-face {
-	font-family: Söhne Mono,Monaco,Andale Mono,Ubuntu Mono,monospace;
-	src: local('Consolas') !important;
-	font-weight: 600;
+	@font-face {
+		font-family: Söhne Mono, Monaco, Andale Mono, Ubuntu Mono, monospace;
+		src: local('Consolas') !important;
+		font-weight: 600;
 
-	font-style: normal;
-}
+		font-style: normal;
+	}
 
-code {
-	font-family: Consolas !important
-}
+	code {
+		font-family: Consolas !important
+	}
 }
 
 @-moz-document domain("en.cppreference.com") {
-/* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
-/* https://fonts.googleapis.com/css?family= */
-/* https://fonts.googleapis.com/css?family=Roboto */
-/* https://fonts.googleapis.com/css?family=Roboto+Mono */
+	/* https://gist.github.com/westonruter/d6cbb4d10cc34864577b946a4b8dd297 */
+	/* https://fonts.googleapis.com/css?family= */
+	/* https://fonts.googleapis.com/css?family=Roboto */
+	/* https://fonts.googleapis.com/css?family=Roboto+Mono */
 
 
 
