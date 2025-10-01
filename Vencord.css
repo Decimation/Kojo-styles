@@ -130,3 +130,17 @@ div[class='container__8279f'] {
 #appearance-tab > div > div.children__7bffb div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > section:nth-child(2) {
   display: none;
 }
+
+/* Profile Effects */
+
+div[class*='profileEffects__'] {
+  display: none;
+}
+
+img[class*='avatarDecoration_'] {
+  display: none;
+}
+
+div[class*='container__4bbc6'] {
+  display: none;
+}
