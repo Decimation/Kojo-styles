@@ -9,68 +9,68 @@
 */
 
 html body {
-  font-family: "Segoe UI" !important;
-  font-weight: inherit;
-  src: local("Segoe UI");
+	font-family: "Segoe UI" !important;
+	font-weight: inherit;
+	src: local("Segoe UI");
 }
 
 code {
-  font-family: "Consolas NF" !important;
-  src: local("Consolas NF");
-  font-weight: inherit;
-  font-style: normal;
+	font-family: "Consolas NF" !important;
+	src: local("Consolas NF");
+	font-weight: inherit;
+	font-style: normal;
 }
 
 /* - [Chat] Nitro */
 
 #sticker-picker-tab {
-  /*visibility: hidden;*/
-  display: none;
+	/*visibility: hidden;*/
+	display: none;
 }
 
 /* - [Global] Store */
 
 a[href*="/shop"],
 a[href*="/store"] {
-  display: none;
+	display: none;
 }
 
 div[class="cta-1idp93"] {
-  display: none;
+	display: none;
 }
 
 /* - [Settings] Billing Settings */
 div[aria-controls="nitro-server-boost-tab"],
 div[aria-label="Nitro"] {
-  display: none;
+	display: none;
 }
 
 div[class*='marginTop'] section + section {
-  display: none;
+	display: none;
 }
 
 /* - [Settings] HypeSquad */
 
 div[aria-controls="hypesquad-online-tab"] {
-  display: none;
+	display: none;
 }
 
 #appearance-tab > div > div.children-2C96Ex > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > section:nth-child(2) {
-  display: none;
+	display: none;
 }
 
 /* - [Server] Server Boost */
 
 div[aria-label="Server Boost Status"],
 #guild-header-popout-premium-subscribe {
-  display: none;
+	display: none;
 }
 
 /* - [Settings] Profile */
 
 div[class*="profileCustomizationSection"] > :nth-child(1) > :nth-child(1) > :nth-child(3),
 div[class*="premiumFeatureBorder"] {
-  display: none;
+	display: none;
 }
 
 div[class*="upsellOverlayContainer"],
@@ -80,12 +80,12 @@ div[class*="premiumTab"],
 div[class*="colorPremium"],
 div[class*="premiumFeatureBannerBackground"],
 div[class*='upsellContainer'] {
-  display: none;
+	display: none;
 }
 
 div[class*='nitroTopDividerContainer'] *,
 div[class*='categorySectionNitroLocked'] {
-  display: none;
+	display: none;
 }
 
 
@@ -93,54 +93,78 @@ div[class*='categorySectionNitroLocked'] {
 
 #message-add-reaction-1,
 #message-actions-add-reaction-1 {
-  display: none;
+	display: none;
 }
 
+div[aria-label*="Send a gift"],
 button[aria-label*="Send a gif"] {
-  display: none;
+	display: none;
 }
 
 div[aria-label="Add Super Reaction"] {
-  display: none;
+	display: none;
 }
 
 div[class='emojiSection_e58351'] {
-  display: none;
+	display: none;
 }
 
 svg[class*='avatarDecoration'] {
-  display: none;
+	display: none;
+}
+
+div[data-settings-sidebar-item*='nitro'] {
+	display: none;
 }
 
 div[class='container_da1432'],
 button[data-list-item-id="profile-311974060798246912___get-premium"] {
-  display: none;
+	display: none;
 }
 
 /* Server Boosts */
 #channels > ul > li:nth-child(4) > div > div.link__2ea32.basicChannelRowLink__2ea32 {
-  display: none;
+	display: none;
 }
 
 div[class='container__8279f'] {
-  display: none;
+	display: none;
 }
 
 #appearance-tab > div > div.children__7bffb > div.selectionGroup__6b52d,
 #appearance-tab > div > div.children__7bffb div:nth-child(2) > div:nth-child(2) > div > div > div:nth-child(1) > section:nth-child(2) {
-  display: none;
+	display: none;
 }
 
 /* Profile Effects */
 
+.dm__972a0 > div > [style^="background: linear-gradient(90deg"],
+.nameplated__91a9d > [style] {
+	display: none;
+}
+
+div[class*='profileEffects'],
 div[class*='profileEffects__'] {
-  display: none;
+	display: none;
 }
 
 img[class*='avatarDecoration_'] {
-  display: none;
+	display: none;
 }
 
-div[class*='container__4bbc6'] {
+/*div[class*='container__4bbc6'] {
   display: none;
+} */
+
+div[class='container_c0c49a'] {
+	display: none;
+}
+
+div[class*='videoContainer'],
+div[style*='linear-gradient'] {
+	display: none;
+}
+
+ul[aria-label*='Billing Settings'] {
+	display: none;
 }
